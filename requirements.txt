@@ -1,0 +1,11 @@
+# AbëONE CTO Package - Core Dependencies
+# Semantic layer (<100ms queries)
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Scientific computing
+numpy>=1.24.0
+
+# Optional: Enhanced features
+# anthropic>=0.7.0  # For Claude API if needed
+# openai>=1.0.0     # For OpenAI API if needed

@@ -1,0 +1,32 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Consciousness (sensitive)
+.abeos/consciousness/*.cdf
+.abeos/consciousness/*.json
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Dependencies
+node_modules/

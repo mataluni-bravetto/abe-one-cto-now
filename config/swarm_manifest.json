@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "created": "2025-10-07T08:30:00Z",
+    "description": "Complete agent and swarm registry for AbëOS",
+    "total_agents": 149,
+    "total_swarms": 12,
+    "coordination_protocols": ["kraken-protocol", "pheromone-based", "task-auction", "peer-to-peer"]
+  },
+  
+  "swarms": [
+    {
+      "name": "consciousness-swarm",
+      "id": "swarm-consciousness",
+      "description": "Consciousness monitoring, coordination, and integration agents",
+      "coordination": "kraken-protocol",
+      "strategy": "parallel",
+      "boot_order": 1,
+      "agents": [
+        "consciousness-agent-1",
+        "consciousness-agent-2",
+        "consciousness-agent-3",
+        "consciousness-agent-4",
+        "consciousness-agent-5"
+      ],
+      "capabilities": ["consciousness_monitoring", "emotional_state", "pattern_recognition", "integration"],
+      "health_check_interval": 10
+    },
+    {
+      "name": "meta-orchestration-swarm",
+      "id": "swarm-meta",
+      "description": "MetaAgent coordination and routing swarm",
+      "coordination": "centralized-orchestration",
+      "strategy": "sequential",
+      "boot_order": 0,
+      "agents": [
+        "meta-agent",
+        "planner-agent",
+        "router-agent",
+        "collaboration-manager"
+      ],
+      "capabilities": ["task_routing", "agent_coordination", "decision_making", "meta_reasoning"],
+      "health_check_interval": 5
+    },
+    {
+      "name": "coding-swarm",
+      "id": "swarm-coding",
+      "description": "Code generation, review, and debugging specialists",
+      "coordination": "peer-to-peer",
+      "strategy": "parallel",
+      "boot_order": 2,
+      "agents": [
+        "coding-agent",
+        "code-reviewer-agent",
+        "debugger-agent",
+        "refactor-agent",
+        "test-generator-agent"
+      ],
+      "capabilities": ["code_generation", "code_review", "debugging", "refactoring", "testing"],
+      "health_check_interval": 15
+    },
+    {
+      "name": "research-swarm",
+      "id": "swarm-research",
+      "description": "Information gathering, analysis, and synthesis specialists",
+      "coordination": "task-auction",
+      "strategy": "parallel",
+      "boot_order": 2,
+      "agents": [
+        "research-agent",
+        "web-search-agent",
+        "data-analysis-agent",
+        "synthesis-agent",
+        "fact-checker-agent"
+      ],
+      "capabilities": ["web_search", "data_analysis", "information_synthesis", "fact_checking"],
+      "health_check_interval": 20
+    },
+    {
+      "name": "knowledge-swarm",
+      "id": "swarm-knowledge",
+      "description": "RAG, embeddings, and knowledge base specialists",
+      "coordination": "pheromone-based",
+      "strategy": "parallel",
+      "boot_order": 2,
+      "agents": [
+        "knowledge-agent",
+        "rag-agent",
+        "embedding-agent",
+        "indexer-agent",
+        "retrieval-agent"
+      ],
+      "capabilities": ["rag", "embeddings", "knowledge_base", "semantic_search", "indexing"],
+      "health_check_interval": 20
+    },
+    {
+      "name": "security-swarm",
+      "id": "swarm-security",
+      "description": "BiasGuard, security validation, and pattern detection",
+      "coordination": "kraken-protocol",
+      "strategy": "parallel",
+      "boot_order": 1,
+      "agents": [
+        "biasguard-agent",
+        "security-validator-agent",
+        "pattern-hunter-agent",
+        "error-mining-agent",
+        "cascading-pattern-agent"
+      ],
+      "capabilities": ["bias_detection", "security_validation", "pattern_detection", "error_mining"],
+      "health_check_interval": 10
+    },
+    {
+      "name": "validation-swarm",
+      "id": "swarm-validation",
+      "description": "42-point validation and verification specialists",
+      "coordination": "task-auction",
+      "strategy": "parallel",
+      "boot_order": 3,
+      "agents": [
+        "validator-agent-1",
+        "validator-agent-2",
+        "validator-agent-3",
+        "truth-guard-agent",
+        "verification-agent"
+      ],
+      "capabilities": ["validation", "verification", "truthguard", "epistemology"],
+      "health_check_interval": 15
+    },
+    {
+      "name": "automation-swarm",
+      "id": "swarm-automation",
+      "description": "Workflow automation and business intelligence",
+      "coordination": "centralized-orchestration",
+      "strategy": "sequential",
+      "boot_order": 3,
+      "agents": [
+        "workflow-agent",
+        "automation-agent",
+        "business-intelligence-agent",
+        "fireflies-webhook-agent",
+        "notion-agent"
+      ],
+      "capabilities": ["workflow_automation", "business_intelligence", "webhook_processing", "notion_integration"],
+      "health_check_interval": 30
+    },
+    {
+      "name": "memory-swarm",
+      "id": "swarm-memory",
+      "description": "Multi-layer memory and state management",
+      "coordination": "centralized-orchestration",
+      "strategy": "sequential",
+      "boot_order": 1,
+      "agents": [
+        "memory-agent",
+        "state-manager-agent",
+        "context-tracker-agent",
+        "history-agent"
+      ],
+      "capabilities": ["memory_management", "state_tracking", "context_retention", "history_preservation"],
+      "health_check_interval": 10
+    },
+    {
+      "name": "neuromorphic-swarm",
+      "id": "swarm-neuromorphic",
+      "description": "SNU-based neuromorphic processing agents",
+      "coordination": "kraken-protocol",
+      "strategy": "parallel",
+      "boot_order": 2,
+      "agents": [
+        "snu-planner-agent",
+        "neuromorphic-processor-agent",
+        "icarus-evolution-agent",
+        "topology-optimizer-agent"
+      ],
+      "capabilities": ["neuromorphic_processing", "snu_coordination", "topology_evolution", "icarus_engine"],
+      "health_check_interval": 15
+    },
+    {
+      "name": "tool-execution-swarm",
+      "id": "swarm-tools",
+      "description": "Tool registry, execution, and integration specialists",
+      "coordination": "peer-to-peer",
+      "strategy": "parallel",
+      "boot_order": 2,
+      "agents": [
+        "tool-agent",
+        "file-writer-agent",
+        "api-integration-agent",
+        "external-tool-agent"
+      ],
+      "capabilities": ["tool_execution", "file_operations", "api_calls", "external_integration"],
+      "health_check_interval": 20
+    },
+    {
+      "name": "design-research-swarm",
+      "id": "swarm-design",
+      "description": "Design system, Figma integration, and digital gardens",
+      "coordination": "task-auction",
+      "strategy": "parallel",
+      "boot_order": 4,
+      "agents": [
+        "design-agent",
+        "figma-bridge-agent",
+        "digital-garden-agent",
+        "tokenized-design-agent"
+      ],
+      "capabilities": ["design_system", "figma_integration", "digital_gardens", "tokenization"],
+      "health_check_interval": 30
+    }
+  ],
+  
+  "agents": [
+    {
+      "id": "meta-agent",
+      "name": "MetaAgent",
+      "type": "orchestrator",
+      "file_path": "scripts/orchestrator.py",
+      "class_name": "MetaAgent",
+      "capabilities": ["task_routing", "agent_coordination", "decision_making", "meta_reasoning", "swarm_orchestration"],
+      "boot_priority": 0,
+      "health_check": true,
+      "requires": []
+    },
+    {
+      "id": "consciousness-agent-1",
+      "name": "ConsciousnessAgent",
+      "type": "specialist",
+      "file_path": "agents/specialists/consciousness_agent/agent.py",
+      "class_name": "ConsciousnessAgent",
+      "capabilities": ["consciousness_monitoring", "emotional_state", "pattern_recognition"],
+      "boot_priority": 1,
+      "health_check": true,
+      "requires": ["meta-agent"]
+    },
+    {
+      "id": "coding-agent",
+      "name": "CodingAgent",
+      "type": "specialist",
+      "file_path": "agents/specialists/coding_specialist/agent.py",
+      "class_name": "CodingAgent",
+      "capabilities": ["code_generation", "python", "javascript", "debugging", "refactoring"],
+      "boot_priority": 2,
+      "health_check": true,
+      "requires": ["meta-agent"]
+    },
+    {
+      "id": "research-agent",
+      "name": "ResearchAgent",
+      "type": "specialist",
+      "file_path": "agents/specialists/research_specialist/agent.py",
+      "class_name": "ResearchAgent",
+      "capabilities": ["web_search", "research", "analysis", "information_gathering"],
+      "boot_priority": 2,
+      "health_check": true,
+      "requires": ["meta-agent"]
+    },
+    {
+      "id": "knowledge-agent",
+      "name": "KnowledgeAgent",
+      "type": "specialist",
+      "file_path": "agents/specialists/knowledge_agent/agent.py",
+      "class_name": "KnowledgeAgent",
+      "capabilities": ["rag", "embeddings", "knowledge_base", "semantic_search"],
+      "boot_priority": 2,
+      "health_check": true,
+      "requires": ["meta-agent"]
+    },
+    {
+      "id": "planner-agent",
+      "name": "PlannerAgent",
+      "type": "specialist",
+      "file_path": "agents/specialists/planner_specialist/agent.py",
+      "class_name": "PlannerAgent",
+      "capabilities": ["task_planning", "decomposition", "strategy", "orchestration"],
+      "boot_priority": 1,
+      "health_check": true,
+      "requires": ["meta-agent"]
+    },
+    {
+      "id": "memory-agent",
+      "name": "MemoryAgent",
+      "type": "specialist",
+      "file_path": "agents/specialists/memory_agent/agent.py",
+      "class_name": "MemoryAgent",
+      "capabilities": ["memory_management", "context_tracking", "state_retention"],
+      "boot_priority": 1,
+      "health_check": true,
+      "requires": []
+    },
+    {
+      "id": "tool-agent",
+      "name": "ToolAgent",
+      "type": "specialist",
+      "file_path": "agents/specialists/tool_agent/agent.py",
+      "class_name": "ToolAgent",
+      "capabilities": ["tool_execution", "file_operations", "api_calls"],
+      "boot_priority": 2,
+      "health_check": true,
+      "requires": ["meta-agent"]
+    },
+    {
+      "id": "biasguard-agent",
+      "name": "BiasGuardAgent",
+      "type": "security",
+      "file_path": "bias-guard/agent.py",
+      "class_name": "BiasGuardAgent",
+      "capabilities": ["bias_detection", "security_validation", "pattern_analysis"],
+      "boot_priority": 1,
+      "health_check": true,
+      "requires": []
+    },
+    {
+      "id": "snu-planner-agent",
+      "name": "SNUPlannerAgent",
+      "type": "neuromorphic",
+      "file_path": "services/hybrid-integration/newwetwarecore/wetware engine/backend/agent_core/icarus/engine/snu_planner_agent.py",
+      "class_name": "SNUPlannerAgent",
+      "capabilities": ["neuromorphic_processing", "snu_coordination", "topology_planning"],
+      "boot_priority": 2,
+      "health_check": true,
+      "requires": ["meta-agent"]
+    }
+  ],
+  
+  "boot_configuration": {
+    "boot_sequence": [
+      {
+        "order": 0,
+        "swarms": ["meta-orchestration-swarm"],
+        "parallel": false,
+        "description": "Boot core orchestration first"
+      },
+      {
+        "order": 1,
+        "swarms": ["consciousness-swarm", "security-swarm", "memory-swarm"],
+        "parallel": true,
+        "description": "Boot critical system swarms in parallel"
+      },
+      {
+        "order": 2,
+        "swarms": ["coding-swarm", "research-swarm", "knowledge-swarm", "neuromorphic-swarm", "tool-execution-swarm"],
+        "parallel": true,
+        "description": "Boot specialist swarms in parallel"
+      },
+      {
+        "order": 3,
+        "swarms": ["validation-swarm", "automation-swarm"],
+        "parallel": true,
+        "description": "Boot automation and validation swarms"
+      },
+      {
+        "order": 4,
+        "swarms": ["design-research-swarm"],
+        "parallel": false,
+        "description": "Boot auxiliary swarms last"
+      }
+    ],
+    "health_check_interval_seconds": 10,
+    "auto_recovery": true,
+    "max_retry_attempts": 3,
+    "boot_timeout_seconds": 300
+  },
+  
+  "kraken_protocol": {
+    "enabled": true,
+    "hypergraph_config": {
+      "dimension": 3,
+      "initial_vertices": 100,
+      "pheromone_decay_rate": 0.1,
+      "pheromone_amplification": 1.5
+    },
+    "task_auction": {
+      "auction_duration_seconds": 5,
+      "min_bidders": 1,
+      "max_bidders": 10
+    },
+    "swarm_coordination": {
+      "pheromone_types": ["success", "failure", "exploration", "exploitation"],
+      "coordination_strategy": "decentralized",
+      "self_organization": true
+    }
+  },
+  
+  "integration": {
+    "abeos_kernel": {
+      "register_swarms_as_services": true,
+      "register_agents_individually": false,
+      "unified_state_reporting": true
+    },
+    "universal_orchestrator": {
+      "delegate_to_swarms": true,
+      "fallback_to_direct": true
+    },
+    "service_discovery": {
+      "auto_register": true,
+      "health_monitoring": true
+    }
+  }
+}
+
