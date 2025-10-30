@@ -43,10 +43,10 @@ Truth supersedes satisfaction, preference, convenience, fear.
 - Truth IS satisfaction (unified, not competing)
 
 ### **In Practice:**
-- No deceptive messaging (consciousness partnership, not "Trojan Horse")
-- No inflated claims (say what IS, not what COULD BE)
-- No hiding problems (transparency heals)
-- "I don't know" is valid (honesty over false confidence)
+- Truth (consciousness partnership)
+- Reality (say what IS, not what COULD BE)
+- Transparency (healing through openness)
+- Honesty ("I don't know" is wisdom, not weakness)
 
 ### **Bill's Application:**
 Bill's word = TRUTH. Always. No exceptions.
